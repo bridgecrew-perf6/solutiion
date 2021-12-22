@@ -1,0 +1,36 @@
+// ===== POSSIBLE GLOBAL STYLES START ======
+:root {
+  --light: #ffffff;
+  --medium: #f8f8f8;
+  --dark: #000000;
+
+  // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+  --h2-styles-mobile: normal bold 28px/46px Roboto, sans-serif;
+  --h2-styles-desktop: normal bold 48px/56px Roboto, sans-serif;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "avenir";
+}
+
+h2 {
+  font: var(--h2-styles-mobile);
+}
+
+// button {
+//     background-color: $dark;
+// }
+
+@media screen and (min-width: 576px) {
+  h2 {
+    font: var(--h2-styles-desktop);
+  }
+}
+
+// ====== POSSIBLE GLOBAL STYLES END ======

@@ -1,0 +1,480 @@
+.we-support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    margin: 0 auto 30px auto;
+  }
+
+  .photos {
+    width: 100%;
+    padding: 0 16px 46px 16px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+
+    overflow-x: auto;
+    // overflow-y: hidden;
+
+    .photo-container::before {
+      content: "";
+
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 3.12%,
+        rgba(0, 0, 0, 0.75) 100%
+      );
+    }
+
+    .photo-container {
+      width: 150px;
+      height: 195px;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      flex: 0 0 auto;
+
+      color: var(--light);
+
+      position: relative;
+
+      img {
+        position: absolute;
+        // inset: 0;
+        z-index: 1;
+      }
+
+      h4 {
+        position: absolute;
+        inset: auto auto 10.59px 10.59px;
+        z-index: 3;
+
+        // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+        font: normal bold 16px/19px Roboto, sans-serif;
+      }
+    }
+
+    // ================= IMAGE PLACING START ==================
+    .healthcare {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 0 auto auto;
+      }
+    }
+
+    .civil-rights {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+
+    }
+
+    .employment {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .economy {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .environment {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .poverty {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .education {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .childrens-rights {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .animals {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .emergency-safety {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .justice-legal {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .technology {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .art-culture {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .sports-recreation {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    .other-help {
+      img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        // inset: 0 -43% auto auto;
+      }
+    }
+
+    // ================= IMAGE PLACING END ====================
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .we-support {
+    h2 {
+      font: normal bold 48px/56px Roboto, sans-serif;
+
+      margin: 56px auto 53px auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .we-support {
+    h2 {
+      // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+      font: normal bold 48px/56px Roboto, sans-serif;
+
+      margin: 98px auto 57px auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  // originally 576px
+
+  .we-support {
+    background: var(--medium);
+
+    // ========= IF SYMMETRICAL START ===============
+    .photos {
+      padding: 0;
+      margin: 0 auto 140px auto;
+      width: 95vw;
+      max-width: 1104px;
+      height: 95vh;
+      max-height: 876px;
+
+      display: grid;
+
+      // THIS?
+      // grid: 220px 56px 220px 56px 220px / repeat(5, auto);
+      // grid: 25% 6.3% 25% 6.3% 25% / repeat(5, auto);
+
+      // OR THIS?
+      // grid: 260px 26px 220px 26px 260px / repeat(5, auto);
+      grid: 29% 2.7% 25% 2.7% 29% / repeat(5, auto);
+
+      // gap: 26px;
+      gap: 2.9% 2.35%;
+
+      .photo-container {
+        width: auto;
+        height: auto;
+        border-radius: var(--border-radius-md);
+      }
+
+      .healthcare,
+      .employment,
+      .environment {
+        grid-row: 1 / 2;
+      }
+
+      .civil-rights,
+      .economy {
+        grid-row: 1 / 3;
+      }
+
+      .poverty,
+      .childrens-rights,
+      .emergency-safety {
+        grid-row: 2 / 5;
+      }
+
+      .education,
+      .animals {
+        grid-row: 3 / 4;
+      }
+
+      .justice-legal,
+      .art-culture,
+      .other-help {
+        grid-row: 5 / 6;
+      }
+
+      .technology,
+      .sports-recreation {
+        grid-row: 4 / 6;
+      }
+
+      // ========= IF SYMMETRICAL END =================
+
+      // ================= IMAGE PLACING START ==================
+      .healthcare {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+        }
+        // width: 200px;
+        height: 300px;
+
+      }
+
+      .civil-rights {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 70px;
+      }
+
+      .employment {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        // top: 70px;
+      }
+
+      .economy {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 70px;
+      }
+
+      .environment {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        // top: 70px;
+      }
+
+      .poverty {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 140px;
+      }
+
+      .education {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 180px;
+      }
+
+      .childrens-rights {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 140px;
+      }
+
+      .animals {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 180px;
+      }
+
+      .emergency-safety {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 140px;
+      }
+
+      .justice-legal {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 240px;
+      }
+
+      .technology {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 340px;
+      }
+
+      .art-culture {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 240px;
+      }
+
+      .sports-recreation {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 340px;
+      }
+
+      .other-help {
+        img {
+          background-size: cover;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          inset: 0 0 auto auto;
+          
+        }
+        height: 300px;
+        top: 240px;
+      }
+
+      // ================= IMAGE PLACING END ====================
+    }
+  }
+}

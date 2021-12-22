@@ -1,0 +1,196 @@
+// ===== POSSIBLE GLOBAL STYLES START ======
+$light: #ffffff;
+$medium: #f8f8f8;
+$dark: #000000;
+
+$border-radius-sm: 4px;
+$border-radius-md: 10px; 
+// ====== POSSIBLE GLOBAL STYLES END ======
+
+@media screen and (min-width: 576px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font: normal normal 18px/30px Inter, sans-serif;
+    // font: normal 18px/30px Roboto, sans-serif;
+    font-weight: 400;
+
+    .section {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 100%;
+      margin: 0 0.8em;
+      padding: 0.8em 1em;
+      overflow: auto;
+      box-shadow: 8px 2px 4px rgba(0, 0, 0, 0.15);
+
+      .logo {
+        width: 130px;
+        height: 10px;
+        margin-top: -10px;
+        margin-left: -30px;
+        margin-right: 60px;
+      }
+      .search-div {
+        border: solid 1.5px #000000;
+        width: 400px;
+        border-radius: 60px;
+        padding: 6px 15px;
+        color: gray;
+        span {
+          opacity: 0.5;
+          margin-left: 10px;
+        }
+      }
+      .right-top-nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        span {
+          flex: 1;
+          margin-right: 25px;
+        }
+      }
+      span {
+        span {
+          margin-left: 10px;
+          cursor: pointer;
+        }
+      }
+      .tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        cursor: pointer;
+        .logo {
+          margin-left: -80px;
+          margin-right: 120px;
+        }
+        span {
+          margin-right: 30px;
+          font: normal normal 16px/22px Inter;
+          font: normal 18px/30px Inter, sans-serif;
+          a {
+            text-decoration: none;
+            color: $dark;
+          }
+        }
+      }
+      .btn {
+        background-color: #f2f2f2;
+        color: #737373;
+        text-align: center;
+        justify-content: center;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 60px;
+        width: 130px;
+        height: 45px;
+        white-space: normal;
+        word-wrap: break-word;
+        margin-right: 5px;
+        border: solid 1px $dark;
+        box-shadow: 0px 2px 4px rgba(188, 188, 188, 0.2);
+        font: normal normal 14px/22px Inter;
+        box-sizing: border-box;
+      }
+
+      .login-button {
+        background: $light;
+        color: $dark;
+      }
+      .signup-button {
+        background: $dark;
+        color: white;
+      }
+
+      .nav-menu {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .section {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 60%;
+      margin: 1em;
+
+      .logo {
+        width: 130px;
+        height: 10px;
+        margin-top: -10px;
+        margin-left: -30px;
+        margin-right: 40px;
+      }
+
+      .search-div {
+        display: none;
+      }
+
+      .right-top-nav {
+        display: none;
+        span {
+          display: none;
+        }
+      }
+      span {
+        span {
+          display: none;
+        }
+      }
+
+      .btn {
+        display: none;
+      }
+
+      .nav-menu {
+        display: flex;
+        margin-right: 0;
+      }
+    }
+
+    .section-below {
+      // display: none;
+      flex-flow: column;
+      position: relative;
+      top: 20px;
+      z-index: 5;
+      font: normal normal 23px/30px Inter, sans-serif;
+      opacity: 1;
+      border: #000000 1px solid;
+
+      .tabs {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        cursor: pointer;
+        span {
+          // margin-right: 30px;
+          padding: 20px;
+          a {
+            text-decoration: none;
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+}

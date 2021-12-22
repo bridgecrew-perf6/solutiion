@@ -1,0 +1,104 @@
+// ===== POSSIBLE GLOBAL STYLES START ======
+$light: #ffffff;
+$medium: #f8f8f8;
+$dark: #000000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// button {
+//     background-color: $dark;
+// }
+
+// ====== POSSIBLE GLOBAL STYLES END ======
+
+.our-mission {
+  // SIZES
+  width: 100%;
+  min-height: 443px;
+  padding: 2em;
+
+  // DISPLAY
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  // COLORS
+  background: $medium;
+  color: $dark;
+
+  h2 {
+    // SIZES
+    margin: 0 auto 10px auto;
+
+    // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+    font: normal bold 36px/48px Roboto, sans-serif;
+  }
+
+  p {
+    // SIZES
+    max-width: 301px;
+    margin: 0 auto 35px auto;
+
+    // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+    font: normal 13px/30px Inter, sans-serif;
+    text-align: center;
+  }
+
+  button {
+    // SIZES
+    width: 169px;
+    height: 49px;
+
+    // BUTTON BORDER STYLES
+    border: none;
+    border-radius: 48px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+    // COLORS
+    background: $dark;
+    color: $light;
+
+    // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+    font: normal 600 14px/17px Inter, sans-serif;
+  }
+}
+
+// ===== !!! ===== pixel width can change once universal styles in place ===== !!! =====
+@media screen and (min-width: 576px) {
+  .our-mission {
+    h2 {
+      // SIZES
+      margin-bottom: 32px;
+
+      // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+      font: normal bold 48px/56px Roboto, sans-serif;
+    }
+
+    p {
+      // SIZES
+      max-width: 798px;
+      margin: 0 auto 49px auto;
+
+      // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+      font: normal 15px/32px Inter, sans-serif;
+    }
+
+    button {
+      // SIZES
+      width: 196px;
+      height: 60px;
+
+      // BUTTON BORDER STYLES
+      border-radius: 60px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+      // FONT SHORTHAND: style, variant, weight, size/line-hight, family
+      font: normal 600 18.5px/22px Inter, sans-serif;
+    }
+  }
+}

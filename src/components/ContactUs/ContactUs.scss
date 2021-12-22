@@ -1,0 +1,72 @@
+// ===== POSSIBLE GLOBAL STYLES START ======
+$light: #ffffff;
+$medium: #f8f8f8;
+$dark: #000000;
+
+$border-radius-sm: 4px;
+$border-radius-md: 10px;
+// ====== POSSIBLE GLOBAL STYLES END ======
+
+@media screen and (min-width: 576px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font: normal bold 36px/48px Roboto, sans-serif;
+
+      margin: 5px auto 10px auto;
+    }
+    p {
+      font: normal 13px/30px Inter, sans-serif;
+    }
+
+    .form-section {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin: 0em;
+      font: normal 13px/30px Inter, sans-serif;
+
+      .form-inner {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font: normal 13px/30px Inter, sans-serif;
+    }
+    .form-section {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      font: normal 13px/30px Inter, sans-serif;
+      // margin: 1em;
+      .form-inner {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
+}

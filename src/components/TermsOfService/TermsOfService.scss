@@ -1,0 +1,91 @@
+
+// ===== POSSIBLE GLOBAL STYLES START ======
+$grey: #757575;
+$dark  : #000000;
+$fontSize: 17px;
+
+
+.terms-of-service {
+
+    // ====== MARGINS =======
+
+    margin-bottom: 234px;
+
+    h2 {
+        margin-bottom: 15px;
+        color        : $dark;
+        font-size    : 36px;
+    }
+
+    .sub-title {
+        color    : $grey;
+        font-size: $fontSize;
+    }
+
+    section {
+        color        : $grey;
+        font-size    : $fontSize;
+        line-height  : 30px;
+        margin-left  : 30px;
+        margin-right : 31px;
+        margin-bottom: 60px;
+    }
+
+    section:first-child {
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        font-size    : 24px;
+        font-weight  : 750;
+        color        : $dark;
+        margin       : 30px auto 20px;
+        text-align   : left;
+        line-height  : 28px;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+
+    ul.dashed {
+        list-style-type: '- ';
+        margin         : 8px 0px 15px 20px;
+    }
+
+    ul.dashed li {
+        padding-left: 0.3rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .terms-of-service {
+
+        h2 {
+            font-size  : 40px;
+        }
+
+        .sub-title br{
+            display: none;
+        }
+    
+        section {
+            margin-left  : 221px;
+            margin-right : 222px;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        section:first-child {
+            margin-bottom: 80px;
+        }
+    }
+}

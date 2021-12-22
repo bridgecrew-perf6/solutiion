@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    flex-direction: column;
+
+    // .logo {
+    //     // width: ;
+    // }
+
+    nav {
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: var(--dark);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        nav {
+            width: 40%;
+            min-width: 505px;
+
+            ul {
+                flex-direction: row;
+                justify-content: space-between;
+
+                width: 100%;
+            }
+        }
+    }
+}

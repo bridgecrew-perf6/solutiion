@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/solution_front/static/css/main.a0fd1516.chunk.css",
+    "main.js": "/solution_front/static/js/main.9da7b849.chunk.js",
+    "main.js.map": "/solution_front/static/js/main.9da7b849.chunk.js.map",
+    "runtime-main.js": "/solution_front/static/js/runtime-main.37bfef3b.js",
+    "runtime-main.js.map": "/solution_front/static/js/runtime-main.37bfef3b.js.map",
+    "static/css/2.ca90d705.chunk.css": "/solution_front/static/css/2.ca90d705.chunk.css",
+    "static/js/2.aecbbeb6.chunk.js": "/solution_front/static/js/2.aecbbeb6.chunk.js",
+    "static/js/2.aecbbeb6.chunk.js.map": "/solution_front/static/js/2.aecbbeb6.chunk.js.map",
+    "static/js/3.4fa6f978.chunk.js": "/solution_front/static/js/3.4fa6f978.chunk.js",
+    "static/js/3.4fa6f978.chunk.js.map": "/solution_front/static/js/3.4fa6f978.chunk.js.map",
+    "index.html": "/solution_front/index.html",
+    "static/css/2.ca90d705.chunk.css.map": "/solution_front/static/css/2.ca90d705.chunk.css.map",
+    "static/css/main.a0fd1516.chunk.css.map": "/solution_front/static/css/main.a0fd1516.chunk.css.map",
+    "static/js/2.aecbbeb6.chunk.js.LICENSE.txt": "/solution_front/static/js/2.aecbbeb6.chunk.js.LICENSE.txt",
+    "static/media/alpha-version.e30a1dfe.svg": "/solution_front/static/media/alpha-version.e30a1dfe.svg",
+    "static/media/beta-version.8b13326b.svg": "/solution_front/static/media/beta-version.8b13326b.svg",
+    "static/media/business.e9a545ee.jpg": "/solution_front/static/media/business.e9a545ee.jpg",
+    "static/media/community.cab8c5cf.jpg": "/solution_front/static/media/community.cab8c5cf.jpg",
+    "static/media/create_issue.d60f3e73.png": "/solution_front/static/media/create_issue.d60f3e73.png",
+    "static/media/healthcare.ec787ada.jpg": "/solution_front/static/media/healthcare.ec787ada.jpg",
+    "static/media/influencer.9d5ef2bd.jpg": "/solution_front/static/media/influencer.9d5ef2bd.jpg",
+    "static/media/TopSection.scss": "/solution_front/static/media/jackson-david-cIcBInoyb7U-unsplash 1.f187c3d2.jpg",
+    "static/media/organization.8df414f0.jpg": "/solution_front/static/media/organization.8df414f0.jpg",
+    "static/media/philanthropist.fa0f4bba.jpg": "/solution_front/static/media/philanthropist.fa0f4bba.jpg",
+    "static/media/release.25c832a9.svg": "/solution_front/static/media/release.25c832a9.svg",
+    "static/media/WhoWeHelp.scss": "/solution_front/static/media/slick.c94f7671.ttf",
+    "static/media/you.b0e53c2d.jpg": "/solution_front/static/media/you.b0e53c2d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37bfef3b.js",
+    "static/css/2.ca90d705.chunk.css",
+    "static/js/2.aecbbeb6.chunk.js",
+    "static/css/main.a0fd1516.chunk.css",
+    "static/js/main.9da7b849.chunk.js"
+  ]
+}

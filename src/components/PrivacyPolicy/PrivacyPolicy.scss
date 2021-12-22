@@ -1,0 +1,81 @@
+
+// ===== POSSIBLE GLOBAL STYLES START ======
+$grey: #757575;
+$dark  : #000000;
+$fontSize: 17px;
+
+
+.privacy-policy {
+        // ======== SIZES ========
+    // display           : flex;
+    // flex-direction    : column;
+    // justify-content   : center;
+    // align-items       : center;
+    // margin-left: 30px;
+    margin-bottom: 66px;
+
+    // ====== MARGINS =======
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .mb-60 {
+        margin-bottom: 60px;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        color        : $dark;
+        font-size    : 36px;
+    }
+
+    .sub-title{
+        color    : $grey;
+        font-size: $fontSize;
+    }
+
+    section {
+        color       : $grey;
+        font-size   : $fontSize;
+        line-height : 30px;
+        margin-left : 30px;
+        margin-right: 31px;
+        margin-bottom: 50px;
+    }
+    p {
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        font-size    : 24px;
+        font-weight  : 750;
+        color        : $dark;
+        margin       : 30px auto 20px;
+        text-align   : left;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+
+    .privacy-policy {
+
+        // ======== SIZES ========
+        // margin-left: 218px;
+
+        h2 {
+            font-size  : 40px;
+        }
+
+        section {
+            margin-left : 221px;
+            margin-right: 222px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.pop-up {
+  width: 100%;
+  text-align: center;
+  top: 10%;
+  bottom: 10%;
+
+  .modal-content {
+    // background-color: brown;
+    border-radius: 12px;
+    max-width: 100%;
+
+    .modal-header {
+      border-bottom: none;
+      text-align: center;
+      justify-content: center;
+      .modal-title {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+    .modal-body {
+      padding: 0 2em 2em 2em;
+      // display: flex;
+    }
+    .image_box {
+      .image {
+        margin-bottom: 1em;
+        border-radius: 1em;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+      }
+      .pop-content {
+        div {
+          display: flex;
+          padding: 10px;
+          .socials {
+            display: flex;
+            flex-direction: column;
+            a {
+              span {
+                text-decoration: none;
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
